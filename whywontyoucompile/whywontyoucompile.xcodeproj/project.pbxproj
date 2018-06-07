@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		99C11A4A20C871690047CD9E /* whywontyoucompile.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C11A4820C871690047CD9E /* whywontyoucompile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99C11A5120C871850047CD9E /* GenericsAndSubclassing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C11A5020C871850047CD9E /* GenericsAndSubclassing.swift */; };
+		99C11A5820C91AD20047CD9E /* SubclassingImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C11A5220C910340047CD9E /* SubclassingImplementation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		99C11A4520C871690047CD9E /* whywontyoucompile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = whywontyoucompile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C11A4820C871690047CD9E /* whywontyoucompile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = whywontyoucompile.h; sourceTree = "<group>"; };
 		99C11A4920C871690047CD9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		99C11A5020C871850047CD9E /* GenericsAndSubclassing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsAndSubclassing.swift; sourceTree = "<group>"; };
+		99C11A5020C871850047CD9E /* WORKS!GenericsAndSubclassing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WORKS!GenericsAndSubclassing.swift"; sourceTree = "<group>"; };
+		99C11A5220C910340047CD9E /* SubclassingImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubclassingImplementation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +51,8 @@
 			children = (
 				99C11A4820C871690047CD9E /* whywontyoucompile.h */,
 				99C11A4920C871690047CD9E /* Info.plist */,
-				99C11A5020C871850047CD9E /* GenericsAndSubclassing.swift */,
+				99C11A5020C871850047CD9E /* WORKS!GenericsAndSubclassing.swift */,
+				99C11A5220C910340047CD9E /* SubclassingImplementation.swift */,
 			);
 			path = whywontyoucompile;
 			sourceTree = "<group>";
@@ -134,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99C11A5120C871850047CD9E /* GenericsAndSubclassing.swift in Sources */,
+				99C11A5820C91AD20047CD9E /* SubclassingImplementation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
